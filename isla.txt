@@ -1,0 +1,34 @@
+CÁLCULO DE PERÍMETRO DE ISLAS EN EL OCÉANO
+
+objetivo: el objetivo de este ejercicio es desarrollar un algoritmo para
+calcular el perímetro de las islas en un océano,
+representado por una matriz cuadrada de dimensiones n x n,
+donde cada celda puede contener un valor que indica la
+presencia o ausencia de una isla.
+
+INSTRUCCIONES:
+
+1.	Se proporcionará una matriz cuadrada de dimensiones n x n,
+donde cada celda contiene un valor entero:
+
+-	el valor 0 representa agua.
+-	el valor 1 representa una porción de tierra que forma parte de una isla.
+
+2.	el algoritmo debe calcular y devolver el perímetro total de todas
+las islas presentes en la matriz.
+
+3.	el perímetro de una isla se calcula contando el numero de bordes que
+rodean la porción de tierra.
+Se consideran bordes todos los lados que están adyacentes a agua (valor 0)
+o están fuera de los límites de la matriz.
+
+4.	la entrada para el algoritmo será una lista de listas que representa la
+matriz de la siguiente manera:
+
+Mifuncion([
+ [1,1,0,0,0],
+ [0,1,1,1,0],
+ [0,0,0,1,0],
+ [0,0,0,1,0],
+ [0,0,0,1,1]
+])
